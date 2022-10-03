@@ -12,18 +12,18 @@ public class BaseTest {
 
     @Before
     public void StartBrowser(){
-  /*
+
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
 
-        */
+         /*
         //Настройки для запуска теста в FF
         System.setProperty("webdriver-gecko.driver", "C:\\WebDriver\\bin\\geckodriver.exe");
         driver = new FirefoxDriver();
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
-
+ */
 
 
     }
