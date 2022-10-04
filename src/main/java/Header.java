@@ -52,9 +52,13 @@ public class Header extends BaseClass {
         }
     }
 
-    //Клик на логотип Яндекса и проверка, что открылась dzen.ru
+    //Клик на логотип Яндекса
     public void clickLogoYandex(){
         driver.findElement(logoYandex).click();
+    }
+
+    //Проверка, что открывалась страница dzen.ru
+    public void checkLogoYandex(){
         switchNewTab();
         waitForVisibilityElement(dzen);
         String url = driver.getCurrentUrl();

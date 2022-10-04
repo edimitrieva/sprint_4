@@ -23,6 +23,7 @@ public class TestLogo extends BaseTest {
         driver.get(URL);
 
         objHeader.clickLogoYandex();
+        objHeader.checkLogoYandex();
     }
 
 
