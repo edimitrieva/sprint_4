@@ -2,6 +2,7 @@ import org.junit.Test;
 
 import static constants.Constants.URL;
 
+//Дополнительное задание. Ввод неверного идентификатора заказа, проверка отображения изображения Not Found
 public class TestWrongNumberOrder  extends BaseTest{
 
     @Test

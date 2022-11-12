@@ -10,6 +10,7 @@ public abstract class BaseClass {
         this.driver = driver;
     }
 
+    //ожидание, что элемент видим
     public void waitForVisibilityElement(By element) {
         new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(element));
     }

@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+//Базовый класс настройки браузера
 public class BaseTest {
     WebDriver driver;
 
@@ -16,13 +17,13 @@ public class BaseTest {
         options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
 
-        /*
+         /*
         //Настройки для запуска теста в FF
         System.setProperty("webdriver-gecko.driver", "C:\\WebDriver\\bin\\geckodriver.exe");
         driver = new FirefoxDriver();
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
-  */
+ */
 
 
     }
